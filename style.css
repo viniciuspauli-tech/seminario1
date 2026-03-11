@@ -1,7 +1,9 @@
-.blue{
-    background-color: blanchedalmond;
+body{
+color: blue;
 
-padding: 50px;
-border-radius: 5px;
-
+}
+.purple{
+    background-color: rgb(255, 153, 0);
+    padding: 50px;
+    border-radius: 5px;
 }

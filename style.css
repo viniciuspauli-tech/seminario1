@@ -1,7 +1,28 @@
-.blue{
-    background-color: blanchedalmond;
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: var(--cor-fundo);
+    color: #cf2929;
+}
 
-padding: 50px;
-border-radius: 5px;
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    color: rgb(20, 31, 128);
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
 
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #cf1414;
 }

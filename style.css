@@ -102,7 +102,7 @@ h2 {
 .sticky {
     position: sticky;
     top: 70px;
-    background: green;
+    background: rgb(0, 0, 225);
     padding: 15px;
     margin-top: 40px;
     border-radius: 8px;

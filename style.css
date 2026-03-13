@@ -33,6 +33,7 @@ section {
     border-bottom: 1px solid white;
 }
 
+
 h2 {
     margin-bottom: 20px;
     color: blue;
@@ -53,6 +54,7 @@ h2 {
     color: white;
     border-radius: 5px;
     margin: 10px 0;
+    
     text-align: center;
     display: flex;
 

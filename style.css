@@ -98,12 +98,3 @@ h2 {
     padding: 10px;
     border-radius: 5px;
 }
-
-.sticky {
-    position: sticky;
-    top: 70px;
-    background: rgb(0, 0, 225);
-    padding: 15px;
-    margin-top: 40px;
-    border-radius: 8px;
-}

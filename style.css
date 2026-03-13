@@ -41,8 +41,7 @@ h2 {
 .nota {
     background-color: antiquewhite;
     padding: 15px;
-    border-left: 6px solid blue;
-    border-radius: 8px;
+
     margin-bottom: 20px;
     font-size: 14px;
 }
@@ -107,16 +106,4 @@ h2 {
     padding: 15px;
     margin-top: 40px;
     border-radius: 8px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: blue;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
 }

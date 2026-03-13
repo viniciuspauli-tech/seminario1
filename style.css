@@ -1,10 +1,3 @@
-:root {
-    --cor-principal: #f85f30;
-    --cor-secundaria: #e86422;
-    --cor-fundo: #f8fafc;
-    --cor-branca: #ffffff;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -12,15 +5,15 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    background: var(--cor-fundo);
-    color: #333;
+    background-color: white;
+    color: black;
 }
 
 .menu {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--cor-secundaria);
+    background-color: red;
     color: white;
     text-align: center;
     padding: 10px;
@@ -31,7 +24,7 @@ header {
     margin-top: 60px;
     text-align: center;
     padding: 40px 20px;
-    background: linear-gradient(135deg, var(--cor-principal), #ffc29c);
+    background-color: red;
     color: white;
 }
 
@@ -42,18 +35,18 @@ main {
 
 section {
     padding: 40px 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid white;
 }
 
 h2 {
     margin-bottom: 20px;
-    color: var(--cor-secundaria);
+    color: red;
 }
 
 .nota {
     background: #fff8a6;
     padding: 15px;
-    border-left: 6px solid #f85f30;
+    border-left: 6px solid red;
     border-radius: 8px;
     margin-bottom: 20px;
     font-size: 14px;
@@ -61,7 +54,7 @@ h2 {
 
 .box {
     padding: 15px;
-    background: var(--cor-principal);
+    background-color: #e86422;
     font-weight: bold;
     color: white;
     border-radius: 8px;
@@ -124,7 +117,7 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background: var(--cor-secundaria);
+    background-color: #e86422;
 }
 
 footer a {

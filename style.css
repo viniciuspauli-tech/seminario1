@@ -10,26 +10,21 @@ body {
 }
 
 .menu {
-    position: fixed;
+    
     top: 0;
     width: 100%;
     background-color: blue;
     color: white;
     text-align: center;
     padding: 10px;
-    z-index: 1000;
-    margin: 20px;
-    align-items: center;
+   
+    
+    
+    
    
 }
 
-header {
-    margin-top: 60px;
-    text-align: center;
-    padding: 40px 20px;
-    background-color: blue;
-    color: white;
-}
+
 
 main {
     max-width: 1000px;

@@ -27,7 +27,16 @@
                  <strong>Display: block</strong> O elemento ocupa toda a largura disponível da tela e sempre começa
                 em uma nova linha. Mesmo que tenha espaço ao lado, ele “quebra” a linha automaticamente. Permite definir
                 largura, altura, margem e padding normalmente.
+                Elementos ocupam toda a largura disponível e sempre começam em uma nova linha.
             </p>
+                <div style="display: block; background: lightblue;">
+                    <p class="nota"> Primeiro bloco</p>
+                </div>
+
+                <div style="display: block; background: lightgreen;">
+                    <p class="nota">Segundo bloco</p>
+                </div>
+            
             <div class="box block">Teste</div>
             <div class="box block">Teste</div>
             <div class="box block">Teste</div>
@@ -39,7 +48,16 @@
             <p class="nota">
                  <strong>Display: inline</strong> Inline no CSS faz com que elementos HTML se mantenham na mesma linha,
                     ocupando apenas a largura necessária para o elemento, sem iniciar uma nova linha. 
+                    Elementos ficam na mesma linha e não aceitam largura/altura definidas.
             </p>
+                <span style="display: inline; background: yellow;">
+                  <p class="nota">  Item 1</p>
+                </span>
+
+                <span style="display: inline; background: orange;">
+                    <p class="nota">Item 2</p>
+                </span>
+
             <span class="box inline">Teste</span>
             <span class="box inline">Teste</span>
             <span class="box inline">Teste</span>
@@ -73,8 +91,13 @@
             <p class="nota">
                  <strong>Display: flex</strong> Inline-flex no CSS transforma um elemento em um contêiner flexível,
                   que se comporta como um elemento inline em relação aos seus elementos vizinhos.
+                  Usado para organizar elementos dentro de um container de forma flexív
             </p>
-
+                 <div style="display: flex;">
+                    <div style="background: red; width: 100px;">1</div>
+                    <div style="background: blue; width: 100px;">2</div>
+                     <div style="background: green; width: 100px;">3</div>
+                    </div>
                 <div class="box">Teste</div>
                 <div class="box">Teste</div>
                 <div class="box">Teste</div>

@@ -98,22 +98,23 @@ h2 {
 }
 
   .container {
-    background: #e0e0e0;
+    background: blue;
     padding: 10px;
     margin-bottom: 10px;
     gap: 10px;
-    border: 2px dashed #666;
+    border: 2px dashed #fdf8f8;
     align-items: center; 
-  }
+ color: white;
+}
 
   .flex { display: flex; }
   .inline-flex { display: inline-flex; }
 
   .item {
     background: #3498db;
-    color: white;
+    color: rgb(255, 251, 251);
     padding: 5px 15px;
     border-radius: 4px;
   }
 
-  
+

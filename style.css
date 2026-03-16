@@ -97,4 +97,21 @@ h2 {
     border-radius: 5px;
 }
 
+  .container {
+    background: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    border: 2px dashed #666;
+    align-items: center; 
+  }
 
+  .flex { display: flex; }
+  .inline-flex { display: inline-flex; }
+
+  .item {
+    background: #3498db;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+  }

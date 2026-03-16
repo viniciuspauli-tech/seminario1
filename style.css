@@ -117,4 +117,95 @@ h2 {
     border-radius: 4px;
   }
 
+.tabela {
+  display: table;           /* Faz a div funcionar como uma tabela */
+  width: 300px;
+  border: 2px solid black;
+}
 
+.linha {
+  display: table-row;       /* Funciona como uma linha da tabela */
+}
+
+.celula {
+  display: table-cell;      /* Funciona como uma célula da tabela */
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.container {
+  display: inline-grid;              /* grid que fica inline */
+  grid-template-columns: 100px 100px;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: block flow-root; /* bloco com novo fluxo */
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.caixa {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background-color: lightblue;
+  margin-right: 10px;
+}
+.container {
+  display: block flex;      /* bloco usando flexbox */
+  border: 2px solid black;
+  padding: 10px;
+  gap: 10px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid blue;
+  padding: 10px;
+}
+.container {
+  display: block grid;                 /* bloco com layout grid */
+  grid-template-columns: 100px 100px;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid blue;
+  text-align: center;
+  padding: 10px;
+}
+.caixa {
+  display: inline flow-root; /* inline com novo fluxo interno */
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.imagem {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  margin-right: 10px;
+}
+.caixa {
+  display: inline flow;   /* elemento inline com fluxo normal */
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+}
